@@ -1,0 +1,15 @@
+dist
+build
+.egg
+.coverage
+__pycache__
+.mypy_cache
+.pytest_cache
+.ipynb_checkpoints
+src/orbytal/_version.py
+
+*.py[cod]
+*.o
+*.so
+*.egg
+*.egg-info

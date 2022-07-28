@@ -1,0 +1,41 @@
+[build-system]
+requires = [
+    "wheel",
+    "setuptools>=42",
+    "setuptools_scm[toml]>=3.4",
+]
+
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+write_to = "src/orbytal/_version.py"
+
+[tool.interrogate]
+verbose = 0
+color = true
+quiet = false
+fail-under = 85
+badge-format = "svg"
+ignore-magic = true
+whitelist-regex = []
+ignore-module = false
+ignore-private = false
+ignore-setters = false
+generate-badge = "assets"
+ignore-init-method = true
+ignore-semiprivate = false
+omit-covered-files = false
+ignore-init-module = false
+ignore-nested-classes = true
+badge-style = "for-the-badge"
+ignore-nested-functions = false
+ignore-property-decorators = false
+
+exclude = [
+    "docs",
+    "tests",
+    "build",
+    "assets",
+    "setup.py",
+    "src/orbytal/_version.py",
+]
