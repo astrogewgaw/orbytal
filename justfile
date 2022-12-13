@@ -33,7 +33,7 @@ default:
             grid,
             padding=2,
             expand=False,
-            title="[b]orbytal[/b]: [i]Fit for binary pulsar orbits, fast and easy.[/i]",
+            title="[b]{{pkg}}[/b]: [i]Fit for binary pulsar orbits, fast and easy.[/i]",
         )
     )
 
